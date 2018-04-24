@@ -25,12 +25,12 @@
             ...
         {project_name}/
             manage.py
-            static/
-            templates/
-            {project_name}/
+            app/
                 uwsgi.py
                 urls.py
-                apps/
+                static/
+                templates/
+                src/
                     app1/
                         migrations/
                         admin.py
